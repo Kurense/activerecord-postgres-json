@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activerecord>.freeze, ["< 4.2", ">= 3.2"])
       s.add_runtime_dependency(%q<multi_json>.freeze, [">= 0"])
-      s.add_runtime_dependency(%q<rake>.freeze, ["< 11.0"])
+      s.add_runtime_dependency(%q<rake>.freeze, [">= 0"])
       s.add_development_dependency(%q<rspec>.freeze, ["~> 2.0"])
       s.add_development_dependency(%q<pg>.freeze, [">= 0"])
       s.add_development_dependency(%q<rubocop>.freeze, [">= 0"])
